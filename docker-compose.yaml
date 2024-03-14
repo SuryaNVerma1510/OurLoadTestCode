@@ -1,0 +1,8 @@
+services:
+  backend:
+    image: consumerextension:latest
+    ports:
+      - "8501:8501"
+    build:      
+      dockerfile: Dockerfile
+      
